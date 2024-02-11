@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4ED9C3982B75395D0017ECAE /* 3052 나머지.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED9C3972B75395D0017ECAE /* 3052 나머지.swift */; };
-		4ED9C39C2B768D990017ECAE /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ED9C39B2B768D990017ECAE /* main.swift */; };
+		4E1A6AF12B78D33700C3A29E /* 2675 문자열 반복.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A6AF02B78D33700C3A29E /* 2675 문자열 반복.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,9 +23,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4E1A6AEC2B77D26600C3A29E /* 1181 단어 정렬.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1181 단어 정렬.swift"; sourceTree = "<group>"; };
+		4E1A6AEE2B78D23800C3A29E /* 27866 문자와 문자열.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27866 문자와 문자열.swift"; sourceTree = "<group>"; };
+		4E1A6AF02B78D33700C3A29E /* 2675 문자열 반복.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2675 문자열 반복.swift"; sourceTree = "<group>"; };
 		4E5F53372B746B9D00F93FF1 /* swiftAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ED9C3972B75395D0017ECAE /* 3052 나머지.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3052 나머지.swift"; sourceTree = "<group>"; };
-		4ED9C39B2B768D990017ECAE /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4ED9C39B2B768D990017ECAE /* 10810 공 넣기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "10810 공 넣기.swift"; sourceTree = "<group>"; };
+		4EECC9582B769000000FA6A2 /* 1546 평균.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1546 평균.swift"; sourceTree = "<group>"; };
+		4EECC95A2B769007000FA6A2 /* 1000 A+B.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "1000 A+B.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +64,12 @@
 			isa = PBXGroup;
 			children = (
 				4ED9C3972B75395D0017ECAE /* 3052 나머지.swift */,
-				4ED9C39B2B768D990017ECAE /* main.swift */,
+				4EECC9582B769000000FA6A2 /* 1546 평균.swift */,
+				4EECC95A2B769007000FA6A2 /* 1000 A+B.swift */,
+				4ED9C39B2B768D990017ECAE /* 10810 공 넣기.swift */,
+				4E1A6AEC2B77D26600C3A29E /* 1181 단어 정렬.swift */,
+				4E1A6AEE2B78D23800C3A29E /* 27866 문자와 문자열.swift */,
+				4E1A6AF02B78D33700C3A29E /* 2675 문자열 반복.swift */,
 			);
 			path = swiftAlgorithm;
 			sourceTree = "<group>";
@@ -97,6 +106,7 @@
 				TargetAttributes = {
 					4E5F53362B746B9D00F93FF1 = {
 						CreatedOnToolsVersion = 15.1;
+						LastSwiftMigration = 1520;
 					};
 				};
 			};
@@ -123,8 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4ED9C39C2B768D990017ECAE /* main.swift in Sources */,
-				4ED9C3982B75395D0017ECAE /* 3052 나머지.swift in Sources */,
+				4E1A6AF12B78D33700C3A29E /* 2675 문자열 반복.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,10 +261,12 @@
 		4E5F533F2B746B9D00F93FF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TP5C45KH5;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -263,6 +274,7 @@
 		4E5F53402B746B9D00F93FF1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4TP5C45KH5;
 				ENABLE_HARDENED_RUNTIME = YES;
