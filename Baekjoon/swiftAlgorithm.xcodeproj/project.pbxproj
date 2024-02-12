@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4E1A6AFB2B79CC5F00C3A29E /* 11720 숫자의 합.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A6AFA2B79CC5F00C3A29E /* 11720 숫자의 합.swift */; };
 		4E1A6AFD2B79CCF800C3A29E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1A6AFC2B79CCF800C3A29E /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -133,7 +132,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E1A6AFD2B79CCF800C3A29E /* main.swift in Sources */,
-				4E1A6AFB2B79CC5F00C3A29E /* 11720 숫자의 합.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
