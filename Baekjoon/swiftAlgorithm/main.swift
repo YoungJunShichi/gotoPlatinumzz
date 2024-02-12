@@ -7,11 +7,24 @@
 
 import Foundation
 
-let s = readLine()!
-let p = readLine()!
+var tempArr: [[Character]] = []
+var maxRange = 0
+var result: String = ""
 
-if s.contains(p) {
-    print("1")
-} else {
-    print("0")
+for _ in 0..<5 {
+    let input = Array(readLine()!)
+    if maxRange < input.count {
+        maxRange = input.count
+    }
+    tempArr.append(input)
 }
+
+for idx in 0..<maxRange {
+    for ele in tempArr {
+        if idx < ele.count {
+            result += String(ele[idx])
+        }
+    }
+}
+
+print(result)
