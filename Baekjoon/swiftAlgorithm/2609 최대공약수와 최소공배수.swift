@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  2609 최대공약수와 최소공배수.swift
 //  swiftAlgorithm
 //
-//  Created by 박시현 on 2/12/24.
+//  Created by 박시현 on 2/15/24.
 //
 
 import Foundation
