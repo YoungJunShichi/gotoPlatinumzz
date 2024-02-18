@@ -7,22 +7,27 @@
 
 import Foundation
 
-var share: Int = 2
-var greatestCommonDivisor = 1
-var leastCommonMultiple = 1
+let input = Int(readLine()!)!
 
-let input = readLine()!.split(separator: " ").map{Int($0)!}
-var a = input[0], b = input[1]
-while a >= share && b >= share {
-    if a % share == 0 && b % share == 0 {
-        greatestCommonDivisor *= share
-        leastCommonMultiple *= share
-        a /= share
-        b /= share
-    } else {
-        share += 1
-    }
+
+var result = 1
+
+for ele in 0...input {
+    result *= ele
 }
 
-print(greatestCommonDivisor)
-print(leastCommonMultiple * a * b)
+var cnt = 0
+
+while true {
+    if input == 0 {
+        print(cnt)
+        break
+    }
+    if result % 10 == 0 {
+        cnt += 1
+        result /= 10
+    } else {
+        print(cnt)
+        break
+    }
+}
