@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  10799 쇠막대기.swift
 //  swiftAlgorithm
 //
-//  Created by 박시현 on 2/12/24.
+//  Created by 박시현 on 3/6/24.
 //
 
 import Foundation
@@ -28,3 +28,4 @@ for e in input {
 }
 
 print(answer)
+
